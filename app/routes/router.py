@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
-from schema.schema import EmailRequest
-from utils.email_sender import send_email
+from app.schema.schema import EmailRequest
+from app.utils.email_sender import send_email
 
 router = APIRouter()
 
